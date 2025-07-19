@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #006A67;
+}
+
+.main {
+    margin: 5rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10%;
+    height: 70vh;
+    width: 60vh;
+    background-color: #FAFFCA;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+
+}
+
+form,
+select,
+button,
+input {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+form input {
+    border: 1px solid #778da9;
+    font-size: 1.5rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+form select {
+    border: 1px solid #778da9;
+    font-size: 1rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    border: 1px solid #778da9;
+    font-size: 1.25rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    color: #fff;
+    background-color: #4682A9;
+    cursor: pointer;
+
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+
+.div2 i {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.flag {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+    left: 20rem;
+}
+
+.flag img {
+    max-width: 3rem;
+}
+
+.flag select {
+    font-size: 0.75rem;
+}
